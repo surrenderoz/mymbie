@@ -1,0 +1,333 @@
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    /* font-family: ; */
+    background: url(./img/backgroundLine.svg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position-x: center;
+}
+.bg-darklight{
+    background: rgba(16, 16, 16, 0.6);
+}
+.bg-darktr{
+    background: rgba(0, 0, 0, 0.35);
+    border-radius: 10px;
+    position: absolute;
+    width: 100%;
+    bottom: 10%;
+    height: 100px;
+    max-width: 1170px;
+    padding: 20px;
+    display: flex;
+}
+.lineblue{
+    border-bottom: solid 3px #9EA9E7; width: 600px; margin: auto; display: flex; justify-content: center;
+    
+}
+
+.heroText{
+    font-size: 56px;
+    text-align: center;
+    color: #475ED7;
+    margin: 40px;
+}
+.heroText2{
+    font-size: 56px;
+    font-weight: 800;
+    text-align: center;
+    margin: 60px 0;
+    text-align: left;
+}
+
+
+.bg-darktr>ul{
+    display: flex;
+    justify-content: center;
+}
+.bg-darktr>ul>li{
+  display: flex;
+    
+    color: white;
+    cursor: pointer;
+    margin-right: 30px;
+}
+.bg-blue{
+    background-color:  #475ED7;
+    border: none;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    position: absolute;
+    top: -37px;
+    right: 0;
+    width: 200px;
+    color: white;
+}
+
+.header{
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+}
+.nav-link{
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    margin-left: 40px;
+    font-size: 16px;
+}
+.w-100{
+    width: 100%;
+    object-fit: cover;
+}
+.carousel-inner{
+    height: 100vh;
+}
+.container>.row>ul>li>a{
+    color: white;
+    vertical-align: middle;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    word-wrap: 6;
+    margin-top: 15px;
+    
+}
+.container>.row>ul>li>a:hover{
+    color: white;
+    text-transform: capitalize;
+    animation: cubic-bezier(0.075, 0.82, 0.165, 1);
+    
+}
+
+.banner-texts{
+    position: absolute;
+    top: 20%;
+    color: white;
+}
+.row>.banner-texts>h5{
+    font-size: 56px;
+    
+}
+.services{
+    background: url(./img/servicesbanner.svg);
+    padding: 20px 0;
+    padding: 20px 0;
+}
+
+.card2{
+    box-shadow: 0px 3px 6px rgba(71, 94, 215, 0.7);
+    border-radius: 10px;
+    padding: 40px;
+    background: white;
+    animation-fill-mode: backwards;
+}
+
+@keyframes animationexx{
+    100% { background-color:#0b2c3a;}
+}
+.card2:hover{
+    animation-play-state: running;
+    /* background-color: #0b2c3a; */
+    color: white;
+    animation: animationexx;
+    animation-duration: 0.8s;  
+    animation-fill-mode: forwards;
+}
+
+/* .row>.col-md-4>.card>img{
+    margin: 15px;
+} */
+.vision{
+    background-color: white;
+    padding: 20px 0;
+}
+.technologies{
+    /* background: linear-gradient(105.27deg, #0BB1D3 17.35%, #475ED7 91.27%); */
+    background-attachment: fixed;
+    background: ffffff00;
+    padding: 20px 0;
+    
+}
+.sub-text{
+    font-weight: 600;
+     font-size: 24px;
+}
+.nav-tabs>.nav-item>.nav-link{
+    margin: 0px;
+    border: none;
+    color: white;
+    background: #0b1130;
+    border-radius: 0px;
+    padding: 15px;
+    margin-bottom: 10px;
+    min-width: 300px;
+}
+.nav-tabs>.nav-item>.nav-link.active{
+    margin: 0px;
+    border: none;
+    color: white;
+    background-color: #475ED7;
+    margin-bottom: 10px;
+
+}
+.col-md-12>.tab-content>.tab-pane>ul{
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: left;
+    
+}
+.col-md-12>.tab-content>.tab-pane>ul>li{
+    width: 200px;
+    height: 150px;
+    list-style: none;
+    background-color: #0b2c3a;
+    border-radius: 5px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: 10px;
+}
+.card-custom>img{
+    width: 120px;
+    height: 80px;
+}
+.card-custom>h5{
+    color: white;
+    text-align: center;
+    
+}
+.clients{
+    background-color: white;
+    padding: 20px 0;
+    background: url(./img/servicesbanner.svg);
+    background-attachment: fixed;
+}
+.card-img-top-2{
+    width: 80px;
+    margin: 15px;
+}
+.quoteText{
+    color: white;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.contact{
+    background: url(./img/footermap1.svg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    animation-direction: reverse;
+    animation: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+.footer{
+    background: #171830;
+    color: white;
+    padding: 20px;
+}
+.formlable{
+    font-size: 16px;
+    font-weight: 400;
+}
+.btn-form{
+    background:  #475ED7;
+    width: 200px;
+    border-radius: 0px;
+    padding: 10px;
+    color: white;
+}
+/* .forminput{
+    background: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    width: 300px;
+    padding: 20px;
+} */
+.effect-1{
+    display: block;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    padding: 7px 0; 
+    border-bottom: 1px solid #ccc;
+    
+    }
+.form-control:focus{
+    border: none;
+    background: none;
+    box-shadow: none
+
+}
+@keyframes inputanimate{
+    /* 100% {box-shadow: 0px 0px 10px 15px rgba(71, 94, 215, 0.2);} */
+    to {
+        box-shadow: 0px 0px 50px 20px rgba(71, 94, 215, 0.2);
+        /* font-size: 18px; */
+        color: #475ED7;
+        
+    	/* opacity: 0.5; */
+	}
+}
+
+.effect-1 ~ .focus-border{position: absolute; bottom: 0; left: 0; width: 0; height: 2px; background-color: #3399FF; transition: 0.4s;}
+.effect-1:focus ~ .focus-border{width: 100%; transition: 0.4s;}
+.effect-1:focus{
+    border: none;
+    /* transition: box-shadow 0.3s; */
+    padding: 20px;
+    height: 50px;
+    font-weight: 600;
+   animation: inputanimate;
+   animation-fill-mode: both;
+   animation-duration: 0.2s;
+   animation-timing-function: ease-in-out
+   
+}
+.contacttext{
+    text-align: left;
+}
+.contacttext>ul>li{
+    display: flex;
+    margin: 5px 5px 5px -37px;
+    color: white;
+}
+.contacttext>ul>li>a{
+    color: white;
+
+}
+
+.socailbuttons{
+    display: block;
+    width: 100%;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+    color: black;
+    background-color: white;
+    font-weight: 600;
+    font-size: 18px;
+    border-radius: 5px;
+}
+.socailbuttons:hover{
+    text-decoration: none;
+    font-weight: 800;
+    transform: scale(1.1);
+    animation: inputanimate;
+    animation-fill-mode: forwards;
+    animation-duration: 0.8s;
+    background-color: #0b2c3a;
+    color: white;
+
+}
